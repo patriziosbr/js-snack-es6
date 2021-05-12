@@ -23,23 +23,22 @@ var biciclette = [
 ];
 
 
-
-
 var check = biciclette[0]; 
 
 for (let i = 0; i < biciclette.length; i++) {
    
     let {peso} = biciclette[i];
 
-    if (check.peso > peso) {
+    if ( peso < check.peso ) {
         check = peso;
     }
 }    
 console.log(check);
 
-
-
-
+document.getElementById('pesoBike').innerHTML = ` 
+l peso minore è ${check}
+`
+console.log(`l peso minore è ${check}`);
 
 
 // var checkPeso = biciclette[0]; 
