@@ -22,4 +22,36 @@ var biciclette = [
 
 ];
 
-console.log(biciclette);
+
+
+
+var check = biciclette[0]; 
+
+for (let i = 0; i < biciclette.length; i++) {
+   
+    let {peso} = biciclette[i];
+
+    if (check.peso > peso) {
+        check = peso;
+    }
+}    
+console.log(check);
+
+
+
+
+
+
+// var checkPeso = biciclette[0]; 
+
+// for (let i = 0; i < biciclette.length; i++) {
+//     var bikeCheck = biciclette[i];
+//     // let {peso} = biciclette[i];
+//     // console.log(peso);
+   
+    
+//     if (checkPeso.peso > bikeCheck.peso) {
+//         checkPeso = bikeCheck;
+//     }
+// }    
+// console.log(checkPeso);
