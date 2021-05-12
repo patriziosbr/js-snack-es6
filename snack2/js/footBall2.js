@@ -48,4 +48,3 @@ for (let i=0; i < footBallTeams.length; i++) {
 
 }
 console.log(scores);
-
